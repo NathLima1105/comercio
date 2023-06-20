@@ -40,13 +40,14 @@ public class Produto {
 		public String getCodigoDeBarras() {
 			return codigoBarras;
 		}
-		public void setPreco(String preco) {
-			this.preco = preco;
+		public void setPreco(double preco) {
+		    this.preco = preco;
 		}
-		public String getPreco() {
+		public double getPreco() {
 			return preco;
-		}
 
-	}
+		} 
+		
+}
 
 
